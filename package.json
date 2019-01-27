@@ -2,7 +2,7 @@
   "name": "recogniser",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/jncameron/Recogniser",
+  "homepage": "https://jncameron.github.com/Recogniser",
   "dependencies": {
     "clarifai": "^2.9.0",
     "gh-pages": "^2.0.1",
