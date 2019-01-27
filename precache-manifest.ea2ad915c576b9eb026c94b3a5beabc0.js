@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Recogniser/static/css/1.087507ec.chunk.css"
   },
   {
-    "revision": "87947802be7c11d4aed92ecdadf8e047",
+    "revision": "4ff36598cee5cad26a76756c0c725b31",
     "url": "/Recogniser/index.html"
   }
 ];
