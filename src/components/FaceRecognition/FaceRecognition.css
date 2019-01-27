@@ -6,3 +6,15 @@
   justify-content: center;
   cursor: crosshair;
 }
+
+.input-image {
+  border: solid #82A7B2 5px;
+  border-radius: 15px;
+}
+
+.wait {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #b2d8e4;
+}
+

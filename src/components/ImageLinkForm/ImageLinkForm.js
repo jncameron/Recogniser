@@ -3,13 +3,13 @@ import './ImageLinkForm.css';
 
 const ImageLinkForm = ({onInputChange, onSubmit}) => {
   return(
-    <div>
+    <div className="link-form">
       <p className='f3'>
-        {'This Brain will detect faces'}
+        {'Enter a URL below. This mighty brain will detect faces!'}
       </p>
       <div className="pa4 br3 shadow-5 form center">
         <input className="f4 pa2 w-70 center" type="text" onChange={onInputChange}/>
-        <button className="w-30 grow f4 link ph3 dib white bg-light-purple" onClick={onSubmit}>Detect</button>
+        <button className="w-30 grow f4 link ph3 dib" onClick={onSubmit}>Detect</button>
       </div>
     </div>
   );

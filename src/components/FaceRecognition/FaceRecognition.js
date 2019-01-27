@@ -1,5 +1,5 @@
 import React from 'react';
-import './FaceRecogniser.css';
+import './FaceRecognition.css';
 
 const FaceRecognition = ({imageUrl, boxes}) => {
 
@@ -14,9 +14,15 @@ const FaceRecognition = ({imageUrl, boxes}) => {
   })
   return(
   <div className="center ma">
-    <div className=" absolute mt2">
-      <img id="inputimage" src={imageUrl} alt="face-detect" width="500px" height="auto"/>
+    <div className="absolute mt2">
+      { !imageUrl ?
+      <p className="wait">Brain waiting for image...</p>
+      :
+      <img className="input-image" id="inputimage" src={imageUrl} alt="hmm...well that didn't work" width="500px" height="auto"/>
+        
+      }
       {faceBoxes}
+
     </div>
   </div>
   )
