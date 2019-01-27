@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jncameron/Recogniser/precache-manifest.e5227d6217c184fcce8471c2863067eb.js"
+  "/Recogniser/precache-manifest.5a7cea2d03ddbdd0da1ff24d388c4239.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/jncameron/Recogniser/index.html", {
+workbox.routing.registerNavigationRoute("/Recogniser/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
